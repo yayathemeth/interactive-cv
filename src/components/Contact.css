@@ -1,0 +1,33 @@
+/* src/components/Contact.css */
+.contact-container {
+  border: 2px solid #00ffff;
+  margin: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.section-title {
+  color: #00ffff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-text {
+  color: #cc66ff;
+  margin-bottom: 1rem;
+}
+
+.contact-links a {
+  display: block;
+  margin: 0.3rem 0;
+  color: #66ffcc;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+.contact-links a:hover {
+  color: #00ffff;
+}

@@ -1,0 +1,64 @@
+/* src/components/Projects.css */
+.projects-container {
+  border: 2px solid #00ffff;
+  margin: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.section-title {
+  color: #00ffff;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.project-card {
+  background-color: #111;
+  border: 1px solid #cc66ff;
+  border-radius: 10px;
+  padding: 1rem;
+  max-width: 300px;
+  color: #cc66ff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #00ffff;
+}
+
+.project-card h3 {
+  color: #00ffff;
+  margin-bottom: 0.5rem;
+}
+
+.stack {
+  color: #66ffcc;
+  font-size: 0.85rem;
+  margin: 0.5rem 0;
+}
+
+.buttons a {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #00ffff;
+  color: #00ffff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.buttons a:hover {
+  background-color: #00ffff;
+  color: #000;
+}

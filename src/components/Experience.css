@@ -1,0 +1,40 @@
+.experience-container {
+  border: 2px solid #00ffff;
+  margin: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #f0f0f0;
+  text-align: left;
+}
+
+.section-title {
+  color: #00ffff;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.subsection-title {
+  color: #00ffff;
+  font-size: 1.3rem;
+  margin: 2rem 0 1rem;
+  text-align: center;
+  border-top: 1px solid #00ffff;
+  padding-top: 2rem;
+}
+
+.experience-entry {
+  margin-bottom: 1.5rem;
+}
+
+.experience-entry h3 {
+  color: #66ffcc;
+  margin-bottom: 0.3rem;
+}
+
+.years {
+  color: #999;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}

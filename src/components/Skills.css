@@ -1,0 +1,54 @@
+/* src/components/Skills.css */
+.skills-container {
+  border: 2px solid #00ffff;
+  margin: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.section-title {
+  color: #00ffff;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.skills-columns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skills-group {
+  flex: 1 1 200px;
+  margin: 1rem;
+}
+
+.skills-group h3 {
+  color: #66ffcc;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.skills-group ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-group li {
+  background-color: #111;
+  /*border: 1px solid #00ffff;*/
+  border-radius: 8px;
+  color: #cc66ff;
+  margin: 0.4rem 0;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.skills-group li:hover {
+  background-color: #0ff;
+  color: #000;
+  cursor: default;
+}

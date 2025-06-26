@@ -1,0 +1,57 @@
+/* src/components/HeroSection.css */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  border: 2px solid #00ffff;
+  margin: 2rem;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero-title {
+  color: #00ffff;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 2px;
+}
+
+.hero-name {
+  color: #cc66ff;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 3px;
+}
+
+.hero-subtitle {
+  color: #66ffcc;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-tagline {
+  color: #9999ff;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #00ffff;
+  color: #00ffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.hero-buttons a:hover {
+  background-color: #00ffff;
+  color: #000;
+}
