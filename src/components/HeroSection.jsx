@@ -10,7 +10,7 @@ function HeroSection() {
       <p className="hero-tagline">Vytvářím elegantní a rychlé aplikace od nápadu až po realizaci.</p>
       <div className="hero-buttons">
         <a href="#projects">Zobrazit projekty</a>
-        <a href="/cv.pdf" download>Download CV</a>
+        <a href="/JeanTaty_CV.pdf" download>Download CV</a>
       </div>
     </section>
   );
